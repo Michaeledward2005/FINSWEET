@@ -1,0 +1,746 @@
+*{
+    padding: 0px;
+    /* margin: auto;/ next time this should be '0' */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 0;
+    margin: auto;
+}
+
+
+
+    header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid black;
+    padding: 0 15px 0 0;
+}
+
+
+header ul li{
+    display: flex;
+    list-style: none;
+    margin: 15px;
+}
+
+header ul li:hover {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.get-your-vehicle .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+    padding-top: 5%;
+    
+}
+
+
+.get-your-vehicle .left{
+    display: inline-block;
+    align-items: center;
+    width: 45%;
+    height: 40vh;
+    justify-content: space-between;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.get-your-vehicle .right{
+    width: 45%;
+    position: relative;
+}
+
+
+.post{
+    position: absolute;
+    top: 0;
+    left:-20% ;
+}
+
+.post2{
+    position: absolute;
+    bottom: -10%;
+    right: -20%;
+}
+
+.road{
+    display: flex;
+}
+
+
+button{
+    margin: 20px;
+    border: none;
+    font-size: medium;
+    width: 50%;
+    color: white;
+    height: 10vh;
+    border-radius: 10PX;
+    background-color: rgba(255, 68, 0, 0.836);
+
+}
+
+
+.time{
+display: inline-flex;
+}
+
+.set {
+    background-color: rgb(190, 190, 190);
+}
+
+.set .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+    padding: 40px;
+    width: 80%;
+}
+
+
+.set-right{
+display:inline-block;
+font-size: x-large;
+width: 50%;
+}
+
+input{
+padding: 15px;
+width: 100%;
+margin: 1px 0;
+border: 0;
+}
+
+
+.set-left{
+font-size: x-large;
+display: inline-block;
+width: 45%;
+}
+
+.set-left h1, .set-right h1 {
+    font-size: 45px;
+}
+
+
+.law{
+    font-size: 13px;
+    margin-left: 40px;
+    color: rgb(112, 112, 112);
+}
+
+
+.whent{
+    padding: 10px;
+    display: inline-flex;
+    font-size: 15px;
+}
+
+.whent h2 {
+    margin-left: 15px;
+    font-size: 21px;
+}
+
+
+.arrow{
+    display: inline-flex;
+    margin-left: 35px;
+}
+
+.arrow img {
+    margin-left: 10px;
+}
+
+.place{
+    font-size: small;
+}
+
+.get-a-quote .container{
+    margin: auto;
+    justify-content: flex-start;
+    width: 80%;
+    align-items: center;
+    display: flex;
+}
+
+
+.get-a-quote .left{
+    width: 45%;
+    font-size: x-large;
+    display: inline-block;
+    text-align: left;
+}
+
+.get-a-quote .left h1 {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+.get-a-quote .right{
+    display:inline;
+    margin: 20px;
+}
+
+
+.great{
+    font-size: 16px;
+    margin: auto;
+    border-left: 2px dotted red;
+    margin: 10px 0 20px 20px;
+    padding-left: 28px;
+    width: 50%;
+    line-height: 19px;
+    color: rgb(112, 112, 112);
+  
+}
+
+
+.do{
+    /* margin: 20px; */
+    display:flex;
+    align-items: center;
+    font-size: 12px;
+    border-collapse: 2px dashed rgba(255, 0, 0, 0.582);
+}
+
+.do h1 {
+    margin-left: 10px;
+}
+
+
+
+main .left{
+    font-size: x-large;
+    width: 30%;
+}
+
+
+.get{
+   font-size: 14px;
+}
+
+
+.come{
+width: 100%;
+margin:auto ;
+background-color: rgba(230, 215, 215, 0.692);
+padding: 20px 0;
+
+}
+
+
+ .come .container {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+flex-wrap: wrap;
+margin: auto;
+
+}
+
+
+
+.race{
+display: flex;
+align-items: center;
+justify-content:center;
+background-color: white;
+width: 24%;
+margin:2px 2px 2px 2px ;
+height: 30vh;
+
+}
+
+img{
+    font-size: large;
+    align-items: center;
+    text-align: center;
+}
+
+
+.we {
+    text-align: center;
+    font-size: large;
+}
+
+
+.kill{
+    text-align: center;
+    font-size: large;
+}
+
+
+.race:hover{
+    background-color: orangered;
+}
+
+.one{
+    display: flex;
+   margin-left:80% ;}
+
+.read{
+  width: 100%;
+}
+.pink{
+    display: flex;
+    height: 40vh;
+}
+ .pink .left{
+    background-image: url(./images/Image1.png);
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+ .pink .right{
+    background-image: url(./images/ovGrEUgrkyE.png);
+    width:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text{
+    right: 0;
+  background-color: orangered;
+  text-align: center;
+  width:50%;
+    position: absolute;
+    height:40vh;
+}
+
+
+ .text button{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    width: 70px;
+  
+ }
+
+ .brand{ 
+     width: 100%;
+}
+
+.add{
+    width: 80%;
+    margin:auto;
+}
+
+.add h2{
+    text-align: center;
+    margin: 25px;
+}
+
+
+.draft{
+    width: 100%;
+   background-color: rgba(167, 161, 161, 0.89);
+   padding: 40px 0;
+}
+
+.lion{
+    width: 60%;
+    align-items: center;
+    justify-content: space-between; 
+   display: flex;
+  margin: auto;
+}
+
+.bad h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.left .fear .few{
+display: inline-block;
+align-items: center;
+justify-content: space-between;
+width: 30%;
+padding: 19;
+margin-bottom: 40px;
+}
+
+ .right .fear .few{
+display: inline-block;
+align-items:center;
+padding: 19px;
+justify-content:space-between;
+}
+
+.few{
+    background-color: white;
+    padding:25px;
+    
+}
+
+.fear{
+    background-color: white;
+}
+
+.dream{
+width: 80%;
+margin: auto;
+padding-left: 250px;
+}
+
+
+.dream ul {
+ display: inline-block; 
+}
+
+
+.dream ul li{
+background-color: white;
+width: 80%;
+display: flex;
+padding:  25px 30px;
+margin-bottom:10px ;
+}
+
+.man{
+width: 100%;
+padding: 40px 0;
+background-color: rgb(214, 215, 216);
+}
+
+
+.free{
+text-align: center;
+padding: 25px;
+}
+
+.like{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+
+
+.fit{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+li{
+    display: flex;
+}
+  
+   
+.real{
+    width: 100%;
+ margin: 30px 0 0 0;
+    background-color: rgba(10, 10, 10, 0.849);
+}
+
+.mean{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.mean  .right{
+display:  inline-block;
+color: white;
+}
+
+.view{
+    margin: 0 0;
+    display:
+    inline-block;
+    
+}
+
+
+.mean .left{
+display: inline-block;
+color: white;
+width: 40;
+font-size: x-large;
+margin: 60px;
+
+}
+
+.t{
+    display: flex;
+    margin: 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fire{
+    display: flex;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.849);
+}
+
+
+.polo{
+    align-items: center;
+    justify-content: space-between;
+  display: flex;
+  padding-top: 45px;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+}
+
+ul li{
+    margin: 15px;
+}
+
+
+.look{
+    margin-bottom: 30px;
+}
+
+/* SERVICE PAGE */
+
+
+.firstService .container{
+    width: 80%;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    margin: auto;
+   margin-bottom: 230px;
+   padding-top: 9%;
+}
+
+
+.ima{
+ background-image: url(images/servicefirst.png);
+ width: 90%;
+margin: auto;
+ height: 65vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+}
+
+.text-5{
+   width: 50%;
+ background-color: black;
+ color: white;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ top: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.act{
+    display: inline-block;
+    align-items:center;
+   font-size: xx-large;
+    justify-content: space-between;
+}
+
+main{
+    width: 100%;
+    height: 95vh;
+  background-color: rgba(240, 233, 223, 0.74);
+  margin-top: 25px;
+}
+
+.dear{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.jinleft{
+    display:inline-block;
+   width: 50%;
+padding: 20px;
+   margin-top: 50px;
+   height:65vh;
+     align-items: center;
+     background-color: white;
+     justify-content: space-between;
+}
+
+.arrow5{
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+
+.jinright{
+    display: flex;
+    height: 75vh;
+padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.cut{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+     flex-wrap: wrap;
+   margin-top: 50px;
+}
+
+
+.pet{
+  margin: 5px 20px 5px 20px;
+  background-color: white;
+  padding: 45px;
+  width: 40%;
+  height: 20vh;
+}
+
+
+.pet:hover{
+background-color: rgba(233, 71, 12, 0.966);
+}
+
+section .the{
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+}
+
+.cast{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   width: 80%;
+   height: 70vh;
+   margin: auto;
+}
+
+
+.him{
+display: flex;
+display: flex;
+align-items: center;
+padding: 15px;
+justify-content: space-between;
+margin: -10px -10px;
+}
+
+.boy{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 35px 35px;
+    padding: 15px;
+    width: 40%;
+}
+
+.guy{
+    display: flex;   
+    width: 45%;
+    padding: 15px;
+}
+
+
+
+.girl{
+    display: inline-block;
+    align-items:center;
+   font-size: x-large;
+    justify-content: space-between;
+}
+
+.she{
+    display: flex;
+    margin-bottom: 20px;
+    align-items:center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+
+.her{
+    display: inline-block;
+margin:20px;
+}
+
+.he{
+    display: flex;   
+    width: 45%;
+    padding:15px;
+
+}
+
+.lefty{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.righty{
+    display: inline-block;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.felt{
+    display: inline-block;
+    align-items:center;
+   font-size: large;
+    justify-content: space-between;
+}
+
+
+.juggle{
+   display: flex;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   padding: 50px;
+   height: 65vh;
+   justify-content: space-between;
+}
+
+a{
+    border-bottom: none;
+    color: black;
+}
