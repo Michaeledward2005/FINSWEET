@@ -3,6 +3,7 @@
     /* margin: auto;/ next time this should be '0' */
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 header {
@@ -84,7 +85,7 @@ header ul li:hover {
 .post2{
     position: absolute;
     bottom: -10%;
-    right: -20%;
+    right: -5%;
 }
 
 .road{
